@@ -55,4 +55,49 @@
 //     cout<<fixed<<setprecision(9)<<area<<endl;
 // }
 
-//F
+// //F
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main(){
+//     long long int n,m;
+//     cin>>n>>m;
+//     cout<<(n%10)+(m%10)<<endl;
+// }
+
+// //G
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main(){
+//     long long int n;
+//     cin>>n;
+//     cout<<(n*(n+1))/2<<endl;
+// }
+
+// //H
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main(){
+//     int a,b;
+//     cin>>a>>b;
+//     cout<<"floor "<<a<<" / "<<b<<" = "<<floor((float)a/b)<<endl;
+//     cout<<"ceil "<<a<<" / "<<b<<" = "<<ceil((float)a/b)<<endl;
+//     cout<<"round "<<a<<" / "<<b<<" = "<<round((float)a/b)<<endl;
+// }
+
+// //I
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main(){
+//     int a,b;
+//     cin>>a>>b;
+//     a>=b?cout<<"Yes"<<endl:cout<<"No"<<endl;
+// }
+
+//J
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int a,b;
+    cin>>a>>b;
+    a%b==0||b%a==0?cout<<"Multiples"<<endl:cout<<"No Multiples"<<endl;
+}
