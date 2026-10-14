@@ -93,11 +93,11 @@
 //     a>=b?cout<<"Yes"<<endl:cout<<"No"<<endl;
 // }
 
-//J
-#include<bits/stdc++.h>
-using namespace std;
-int main(){
-    int a,b;
-    cin>>a>>b;
-    a%b==0||b%a==0?cout<<"Multiples"<<endl:cout<<"No Multiples"<<endl;
-}
+// //J
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main(){
+//     int a,b;
+//     cin>>a>>b;
+//     a%b==0||b%a==0?cout<<"Multiples"<<endl:cout<<"No Multiples"<<endl;
+// }
