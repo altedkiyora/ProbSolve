@@ -108,3 +108,55 @@
 //     a += u*p;
 //     printf("VALOR A PAGAR: R$ %.2lf\n",a);
 // }
+
+// //B-1011
+// #include<stdio.h>
+// #include<math.h>
+// int main(){
+//     double r;
+//     scanf("%lf",&r);
+//     printf("VOLUME = %.3lf\n",(4/3.0)*3.14159*pow(r,3));
+// }
+
+// //B-1012
+// #include<stdio.h>
+// #include<math.h>
+// int main(){
+//     double a,b,c;
+//     scanf("%lf %lf %lf",&a,&b,&c);
+//     printf("TRIANGULO: %.3lf\n",0.5*a*c);
+//     printf("CIRCULO: %.3lf\n",3.14159*pow(c,2));
+//     printf("TRAPEZIO: %.3lf\n",(a+b)*c/2);
+//     printf("QUADRADO: %.3lf\n",pow(b,2));
+//     printf("RETANGULO: %.3lf\n",a*b);
+// }
+
+// //B-1013
+// #include<stdio.h>
+// #include<math.h>
+// int main(){
+//     int a,b,c;
+//     scanf("%d %d %d",&a,&b,&c);
+//     int mj = (a+b+abs(a-b))/2;
+//     mj = (mj+c+abs(mj-c))/2;
+//     printf("%d eh o maior\n",mj);
+// }
+
+// //B-1014
+// #include<stdio.h>
+// int main(){
+//     int x;double y;
+//     scanf("%d ",&x);
+//     scanf("%lf ",&y);
+//     printf("%.3lf km/l\n",x/y);
+// }
+
+// //B-1015
+// #include<stdio.h>
+// #include<math.h>
+// int main(){
+//     double x1,x2,y1,y2;
+//     scanf("%lf %lf",&x1,&y1);
+//     scanf("%lf %lf",&x2,&y2);
+//     printf("%.4lf\n",sqrt((pow(x2-x1,2)+pow(y2-y1,2))));
+// }
