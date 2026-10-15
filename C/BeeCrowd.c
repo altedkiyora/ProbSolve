@@ -160,3 +160,62 @@
 //     scanf("%lf %lf",&x2,&y2);
 //     printf("%.4lf\n",sqrt((pow(x2-x1,2)+pow(y2-y1,2))));
 // }
+
+// //B-1016
+// #include<stdio.h>
+// int main(){
+//     int y;
+//     scanf("%d",&y);
+//     printf("%d minutos\n",2*y);
+// }
+
+// //B-1017
+// #include <stdio.h>
+// int main() {
+ 
+//     int h,as;
+//     scanf("%d",&h);
+//     scanf("%d",&as);
+//     long long int d = h*as;
+//     printf("%.3lf\n",d/12.0);  
+// }
+
+// //B-1018
+// #include<stdio.h>
+// int main(){
+//     int n;
+//     scanf("%d",&n);
+//     int temp = n;
+//     int arr[7]={100,50,20,10,5,2,1};
+//     printf("%d\n",n);
+//     for(int i=0;i<7;i++){
+//         int count =0;
+//         if(temp>=arr[i]){ //This if wasnt even needed. The code will run 7 times anyway.
+//             count = temp/arr[i];
+//             temp = temp%arr[i];
+//         }
+//         printf("%d nota(s) de R$ %d,00\n",count,arr[i]);
+//     }
+// }
+
+// //B-1019
+// #include<stdio.h>
+// int main(){
+//     long long int n;
+//     scanf("%lld",&n);
+//     int h,m,s;
+//     h=n/3600;
+//     m=(n%3600)/60;
+//     s=n%60;
+//     printf("%d:%d:%d\n",h,m,s);
+// }
+
+// // //B-1020
+// #include<stdio.h>
+// int main(){
+//     int d;
+//     scanf("%d",&d);
+//     printf("%d ano(s)\n",d/365);
+//     printf("%d mes(es)\n",(d%365)/30);
+//     printf("%d dia(s)\n",d%365%30);
+// }
