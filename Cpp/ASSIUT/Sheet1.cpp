@@ -167,12 +167,111 @@
 //     }
 // }
 
-//P
-#include<bits/stdc++.h>
-using namespace std;
-int main(){
-    int x;
-    cin>>x;
-    x= x/1000;
-    x%2==0?cout<<"EVEN"<<endl:cout<<"ODD"<<endl;
-}
+// //P
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main(){
+//     int x;
+//     cin>>x;
+//     x= x/1000;
+//     x%2==0?cout<<"EVEN"<<endl:cout<<"ODD"<<endl;
+// }
+
+// //Q
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main(){
+//     float x,y;
+//     cin>>x>>y;
+//     if(x>0){
+//         if(y>0) cout<<"Q1"<<endl;
+//         else if(y<0) cout<<"Q4"<<endl;
+//         else cout<<"Eixo X"<<endl;
+//     }else if(x<0){
+//         if(y>0) cout<<"Q2"<<endl;
+//         else if(y<0) cout<<"Q3"<<endl;
+//         else cout<<"Eixo X"<<endl;
+//     }else{
+//         if(y==0) cout<<"Origem"<<endl;
+//         else cout<<"Eixo Y"<<endl;
+//     }
+// }
+
+// //R
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main(){
+//     int n;
+//     cin>>n;
+//     int y = n/365;
+//     int m = (n%365)/30;
+//     int d = (n%365)%30;
+//     cout<<y<<" years"<<endl;
+//     cout<<m<<" months"<<endl;
+//     cout<<d<<" days"<<endl;
+// }
+
+// //S
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main(){
+//     double x;
+//     cin>>x;
+//     if(x>=0&&x<=25){
+//         cout<<"Interval [0,25]"<<endl;
+//     }else if(x>25&&x<=50){
+//         cout<<"Interval (25,50]"<<endl;
+//     }else if(x>50&&x<=75){
+//         cout<<"Interval (50,75]"<<endl;
+//     }else if(x>75&&x<=100){
+//         cout<<"Interval (75,100]"<<endl;
+//     }else{
+//         cout<<"Out of Intervals"<<endl;
+//     }
+// }
+
+// //T
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main(){
+//     int a,b,c;
+//     cin>>a>>b>>c;
+//     if(a>=b&&a>=c){
+//         if(b>=c){
+//             cout<<c<<endl<<b<<endl<<a<<endl;
+//         }else{
+//             cout<<b<<endl<<c<<endl<<a<<endl;
+//         }
+//     }else if(b>=a&&b>=c){
+//         if(a>=c){
+//             cout<<c<<endl<<a<<endl<<b<<endl;
+//         }else{
+//             cout<<a<<endl<<c<<endl<<b<<endl;
+//         }
+//     }else if(c>=a&&c>=b){
+//         if(a>=b){
+//             cout<<b<<endl<<a<<endl<<c<<endl;
+//         }else{
+//             cout<<a<<endl<<b<<endl<<c<<endl;
+//         }
+//     }
+//     cout<<endl;
+//     cout<<a<<endl;
+//     cout<<b<<endl;
+//     cout<<c<<endl;
+// }
+
+// //U
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main(){
+//     float n;
+//     cin>>n;
+//     float dc=n-floor(n);
+//     int ndc=floor(n);
+//     if(dc==0.00){
+//         cout<<"int "<<ndc<<endl;
+//     }else{
+//         cout<<"float "<<ndc<<" "<<fixed<<setprecision(3)<<dc<<endl;
+//     }
+// }
