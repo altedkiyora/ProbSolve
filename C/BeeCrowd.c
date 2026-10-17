@@ -219,3 +219,33 @@
 //     printf("%d mes(es)\n",(d%365)/30);
 //     printf("%d dia(s)\n",d%365%30);
 // }
+
+// //B-1021
+// #include<stdio.h>
+// #include<math.h>
+// int main(){
+//     double n;
+//     scanf("%lf",&n);
+//     int ndc= floor(n);
+//     int dc=(n-ndc)*100;
+//     int note[6]={100,50,20,10,5,2};
+//     int coin[6]={100,50,25,10,5,1};
+//     printf("NOTAS:\n");
+//     for(int i=0;i<6;i++){
+//         int countN=0;
+//         countN = ndc/note[i];
+//         ndc = ndc%note[i];
+//         printf("%d nota(s) de R$ %d.00\n",countN,note[i]);
+//     }
+//     printf("MOEDAS:\n");
+//     ndc = ndc*100;
+//     int countT=0;
+//     countT=ndc/coin[0];
+//     printf("%d moeda(s) de R$ %.2f\n",countT,coin[0]/100.00);
+//     for(int i=1;i<6;i++){
+//         int countC=0;
+//         countC= dc/coin[i];
+//         dc= dc%coin[i];
+//         printf("%d moeda(s) de R$ %.2f\n",countC,coin[i]/100.00);
+//     }
+// }
