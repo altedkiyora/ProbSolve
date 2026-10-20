@@ -275,3 +275,84 @@
 //         cout<<"float "<<ndc<<" "<<fixed<<setprecision(3)<<dc<<endl;
 //     }
 // }
+
+// //V
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main(){
+//     int a,b;
+//     char s;
+//     cin>>a>>s>>b;
+//     switch(s){
+//         case '<': a<b? cout<<"Right"<<endl:cout<<"Wrong"<<endl;break;
+//         case '>': a>b? cout<<"Right"<<endl:cout<<"Wrong"<<endl;break;
+//         case '=': a==b? cout<<"Right"<<endl:cout<<"Wrong"<<endl;break;
+//     }
+// }
+
+// //W
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main(){
+//     int a,b,c;
+//     char q,s;
+//     cin>>a>>s>>b>>q>>c;
+//     switch(s){
+//         case '+': (a+b)==c?cout<<"Yes"<<endl:cout<<a+b<<endl;break;
+//         case '-': (a-b)==c?cout<<"Yes"<<endl:cout<<a-b<<endl;break;
+//         case '*': (a*b)==c?cout<<"Yes"<<endl:cout<<a*b<<endl;break;
+//     }
+// }
+
+// //X
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main(){
+//     int l1,r1,l2,r2;
+//     cin>>l1>>r1>>l2>>r2;
+//     if(((l1>=l2&& l1>=r2)||(r1>=l2&& r1>=r2)||(r2>=l1&& r2>=r1)||(l2>=l1&& l2>=r1))&& (!((l1>l2 && r1>l2)||(l2>l1 &&r2>l1)||(l1<l2 && r1<l2)||(l2<l1 &&r2<l1)))){
+//         if(l2>=l1&&r2>=r1) cout<<l2<<" "<<r1<<endl;
+//         else if(l1>=l2&&r1>=r2) cout<<l1<<" "<<r2<<endl;
+//     }
+//     else cout<<-1<<endl;
+// }
+
+// //X
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main(){
+//     long long int l1,r1,l2,r2;
+//     cin>>l1>>r1>>l2>>r2;
+//     if((l2>=l1&&l2<=r1)||(r2>=l1&&r2<=r1)||(l1>=l2&&l1<=r2)||r1>=l2&&r1<=r2){
+//         if(l2>=l1&&r2>=r1) cout<<l2<<" "<<r1<<endl;
+//         else if(l1>=l2&&r1>=r2) cout<<l1<<" "<<r2<<endl;
+//         else if(l2>=l1&&r2<=r1) cout<<l2<<" "<<r2<<endl;
+//         else if(l1>=l2&&r1<=r2) cout<<l1<<" "<<r1<<endl;
+//     }
+//     else cout<<-1<<endl;
+// }
+
+// //Y
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main(){
+//     long long int a,b,c,d;
+//     cin>>a>>b>>c>>d;
+//     a=a%100;
+//     b=b%100;
+//     c=c%100;
+//     d=d%100;
+//     long long int x = (a*b*c*d)%100;
+//     if(x<10){
+//         cout<<0<<x<<endl;
+//     }else cout<<x<<endl;
+// }
+
+// //Z
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main(){
+//     long long int a,b,c,d;
+//     cin>>a>>b>>c>>d;
+//     cout<<((b*log(a))>(d*log(c))?"YES":"NO")<<endl;
+// }
