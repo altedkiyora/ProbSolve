@@ -249,3 +249,15 @@
 //         printf("%d moeda(s) de R$ %.2f\n",countC,coin[i]/100.00);
 //     }
 // }
+
+// //B-1035
+// #include <stdio.h>
+// int main() {
+//     int a,b,c,d;
+//     scanf("%d %d %d %d",&a,&b,&c,&d);
+//     int sumCD =c+d;
+//     int sumAB=a+b;
+//     if((b>c)&&(d>a)&&(sumCD>sumAB)&&(c>0)&&(d>0)&&(a%2==0)){
+//         printf("Valores aceitos\n");
+//     }else printf("Valores nao aceitos\n");   
+// }
