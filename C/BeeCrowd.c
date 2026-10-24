@@ -309,3 +309,28 @@
 //         case 5: printf("Total: R$ %.2lf\n",1.50*y);break;
 //     }
 // }
+
+// //1040
+// #include <stdio.h>
+// int main() {
+//     float n1,n2,n3,n4,e;
+//     scanf("%f %f %f %f",&n1,&n2,&n3,&n4);
+//     double m = (n1*2+n2*3+n3*4+n4*1)/(2+3+4+1);
+//     printf("Media: %.1f\n",m);
+//     if(m<5.0){
+//         printf("Aluno reprovado.\n");
+//     }else if(m>=5.0 && m<=6.9){
+//             printf("Aluno em exame.\n");
+//             scanf("%f",&e);
+//             printf("Nota do exame: %.1f\n",e);
+//             if(m<5.0){
+//                 printf("Aluno reprovado.\n");
+//             }else{
+//                 printf("Aluno aprovado.\n");
+//             }
+//             printf("Media final: %.1f\n",(e+m)/2);
+//     }else{
+//         printf("Aluno aprovado.\n");
+//     }
+//     return 0;
+// }

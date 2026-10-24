@@ -58,3 +58,19 @@
 //         else{cout<<"Wrong"<<endl;}
 //     }
 // }
+
+// //E
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main(){
+//     int n;
+//     cin>>n;
+//     long long int x,mx=0;
+//     while(n--){
+//         cin>>x;
+//         if(x>=mx){
+//             mx = x;
+//         }
+//     }
+//     cout<<mx;
+// }
