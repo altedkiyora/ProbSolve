@@ -106,3 +106,25 @@
 //         } 
 //     }
 // }
+
+// //H
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main(){
+//     int x,found=0;
+//     cin>>x;
+//     if(x<=1){
+//         cout<<"NO"<<endl;
+//     }else{
+//         for(int i = 2;i<x/2;i++){
+//             if(x%i==0){
+//                 found=1;break;
+//             }
+//         }
+//         if(found){
+//             cout<<"NO"<<endl;
+//         }else{
+//             cout<<"YES"<<endl;
+//         }
+//     }
+// }
