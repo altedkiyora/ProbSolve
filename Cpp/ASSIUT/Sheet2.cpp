@@ -128,3 +128,23 @@
 //         }
 //     }
 // }
+
+// //I
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main(){
+//     int n,temp=0,rev=0,r;
+//     cin>>n;
+//     temp = n;
+//     while(temp){
+//         r=temp%10;
+//         rev=rev*10+r;
+//         temp=temp/10;
+//     }
+//     cout<<rev<<endl;
+//     if(n == rev){
+//         cout<<"YES"<<endl;
+//     }else{
+//         cout<<"NO"<<endl;
+//     }
+// }
