@@ -148,3 +148,22 @@
 //         cout<<"NO"<<endl;
 //     }
 // }
+
+// //J
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main(){
+//     int n,found=1;
+//     cin>>n;
+//     for(int i=2;i<=n;i++){
+//         found = 1;
+//         for(int j=2;j<i;j++){ //going till the last digit before i is enough
+//             if((i%j==0)&&(i!=j)){
+//                 found = 0;break;
+//             }
+//         }
+//         if(found){
+//             cout<<i<<" ";
+//         }
+//     }
+// }
