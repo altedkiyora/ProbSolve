@@ -439,3 +439,16 @@
 //         printf("O JOGO DUROU %d HORA(S)\n",(e-s));
 //     }else { printf("O JOGO DUROU %d HORA(S)\n",24);}
 // }
+
+// //1047
+// #include<stdio.h>
+// int main(){
+//     int hi,mi,hf,mf,di,df;
+//     scanf("%d %d %d %d",&hi,&mi,&hf,&mf);
+//     di = hi*60 +mi;
+//     df= hf*60+mf;
+//     if((df-di)<=0) df=(24*60)+df;
+//     int h = (df-di)/60; 
+//     int m = (df-di)%60;
+//     printf("O JOGO DUROU %d HORA(S) E %d MINUTO(S)\n",h,m);
+// }

@@ -180,3 +180,29 @@
 //         }
 //     }
 // }
+
+// //L (Euclidean Algorithm)
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main(){
+//     int a,b,temp,r;
+//     cin>>a>>b;
+//     if(a<b){temp = a;a=b;b=temp;}
+//     while(b){r=a%b;a=b;b=r;}
+//     cout<<a<<endl;
+// }
+
+// //L (alt)
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main(){
+//     int a,b,r;
+//     cin>>a>>b;
+//     if(a<b) {int temp =a;a=b;b=temp;}
+//     for(int i =1;i<=b;i++){
+//         if(a%i==0 && b%i==0){
+//             r=i;
+//         }
+//     }
+//     cout<<r<<endl;
+// }
