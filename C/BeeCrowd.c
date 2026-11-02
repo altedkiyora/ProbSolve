@@ -452,3 +452,20 @@
 //     int m = (df-di)%60;
 //     printf("O JOGO DUROU %d HORA(S) E %d MINUTO(S)\n",h,m);
 // }
+
+// //1048
+// #include<stdio.h>
+// int main(){
+//     double a;int p;
+//     scanf("%lf",&a);
+//     double temp =a;
+//     if(a>=0&&a<=400.00)p=15;
+//     else if(a<=800.00)p=12;
+//     else if(a<=1200.00)p=10;
+//     else if(a<=2000.00)p=7;
+//     else p=4;
+//     a+=temp*p/100.0;
+//     printf("Novo salario: %.2lf\n",a);
+//     printf("Reajuste ganho: %.2lf\n",temp*p/100.0);
+//     printf("Em percentual: %d %%\n",p);
+// }
