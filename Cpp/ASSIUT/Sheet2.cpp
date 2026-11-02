@@ -206,3 +206,28 @@
 //     }
 //     cout<<r<<endl;
 // }
+
+// //M
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main(){
+//     int a,b,e=0;
+//     cin>>a>>b;
+//     for(int i=a;i<=b;i++){
+//         int temp = i,r=0,f=1;
+//         while(temp){
+//             r=temp%10;
+//             if(r!=4&&r!=7){
+//                 f=0;
+//             }
+//             temp/=10;
+//         }
+//         if(f){
+//             e=1;
+//             cout<<i<<" ";
+//         }
+//     }
+//     if(!e){
+//         cout<<-1<<endl;
+//     }
+// }
