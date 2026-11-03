@@ -469,3 +469,30 @@
 //     printf("Reajuste ganho: %.2lf\n",temp*p/100.0);
 //     printf("Em percentual: %d %%\n",p);
 // }
+
+// //1049
+// #include<stdio.h>
+// #include<string.h>
+// int main(){
+//     char w1[15],w2[15],w3[15];
+//     scanf("%s",w1);
+//     scanf("%s",w2);
+//     scanf("%s",w3);
+//     if(strcmp(w1,"vertebrado")==0){
+//         if(strcmp(w2,"ave")==0){
+//             if(strcmp(w3,"carnivoro")==0) printf("aguia\n");
+//             else printf("pomba\n");
+//         }else if(strcmp(w2,"mamifero")==0){
+//             if(strcmp(w3,"onivoro")==0) printf("homem\n");
+//             else printf("vaca\n");
+//         }
+//     }else if(strcmp(w1,"invertebrado")==0){
+//         if(strcmp(w2,"inseto")==0){
+//             if(strcmp(w3,"herbivoro")==0) printf("lagarta\n");
+//             else printf("pulga\n");
+//         }else if(strcmp(w2,"anelideo")==0){
+//             if(strcmp(w3,"onivoro")==0) printf("minhoca\n");
+//             else printf("sanguessuga\n");
+//         }
+//     }
+// }
