@@ -514,3 +514,23 @@
 //         default:printf("DDD nao cadastrado\n");
 //     }
 // }
+
+// //1051
+// #include<stdio.h>
+// int main(){
+//     double s,t;
+//     scanf("%lf",&s);
+//     if(s>2000){
+//         s-=2000;
+//         if(s<=1000){
+//             t=s*0.08;
+//         }else if(s<=2500){
+//             t=1000*0.08+(s-1000)*0.18;
+//         }else{
+//             t=1500*0.18+1000*0.08+(s-2500)*0.28;
+//         }
+//     }else t=0;
+//     if(!t){
+//         printf("Isento\n");
+//     }else printf("R$ %.2lf\n",t);   
+// }
