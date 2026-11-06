@@ -276,3 +276,23 @@
 //         cout<<endl;
 //     }
 // }
+
+// //Q
+// #include<bits/stdc++.h> //Couldve done a dowhile loop here as well
+// using namespace std;
+// int main(){
+//     int t=1;cin>>t;
+//     while(t--){
+//         long long int n;cin>>n;
+//         if(n==0){
+//             cout<< n;
+//         }else{
+//             while(n){
+//             int r = n%10;
+//             n /= 10; 
+//             cout<< r <<" ";
+//             }
+//         }
+//         cout<<endl;
+//     }
+// }
