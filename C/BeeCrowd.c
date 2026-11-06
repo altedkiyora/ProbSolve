@@ -579,3 +579,22 @@
 //     }
 //     printf("%d valores positivos\n",count);
 // }
+
+//1061
+
+
+// //1070
+// #include<stdio.h>
+// int main(){
+//     int x;scanf("%d",&x);
+//     int i=x,count=0;
+//     while(1){
+//         if(i%2!=0){
+//             printf("%d\n",i);
+//             count++;
+//         }
+//         i++;
+//         if(count==6)break;
+//     }
+// }
+

@@ -296,3 +296,25 @@
 //         cout<<endl;
 //     }
 // }
+
+// //R
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main(){
+//     ios_base::sync_with_stdio(0);
+//     cin.tie(0);
+//     int n,m;
+//     while(true){
+//         cin>>n>>m;
+//         if(n<=0||m<=0){
+//             break;
+//         }
+//         int sum=0;
+//         if(n>m){int temp=n;n=m;m=temp;}
+//         for(int i=n;i<=m;i++){
+//             cout<<i<<" ";
+//             sum+=i;
+//         }
+//         cout<<"sum ="<<sum<<endl;
+//     }
+// }
