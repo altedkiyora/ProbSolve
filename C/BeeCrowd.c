@@ -534,3 +534,48 @@
 //         printf("Isento\n");
 //     }else printf("R$ %.2lf\n",t);   
 // }
+
+// //1052
+// #include<stdio.h>
+// int main(){
+//     int m;scanf("%d",&m);
+//     switch(m){
+//         case 1: printf("January\n");break;
+//         case 2: printf("February\n");break;
+//         case 3: printf("March\n");break;
+//         case 4: printf("April\n");break;
+//         case 5: printf("May\n");break;
+//         case 6: printf("June\n");break;
+//         case 7: printf("July\n");break;
+//         case 8: printf("August\n");break;
+//         case 9: printf("September\n");break;
+//         case 10: printf("October\n");break;
+//         case 11: printf("November\n");break;
+//         case 12: printf("December\n");break;
+//     }
+// }
+
+// //1059
+// #include<stdio.h>
+// int main(){
+//     for(int i=0;i<100;i++){
+//         if((i+1)%2==0){
+//             printf("%d\n",i+1);
+//         }
+//     }
+// }
+
+// //1060
+// #include<stdio.h>
+// int main(){
+//     double a;int count=0,i=0;
+    
+//     while(i<6){
+//         scanf("%lf",&a);
+//         if(a>0){
+//             count++;
+//         }
+//         i++;
+//     }
+//     printf("%d valores positivos\n",count);
+// }
