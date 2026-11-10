@@ -598,3 +598,19 @@
 //     }
 // }
 
+// //1072
+// #include<stdio.h>
+// int main(){
+//     int n;
+//     scanf("%d",&n);
+//     long long cIn,cOut;cIn=cOut=0;
+//     while(n--){
+//         int x;
+//         scanf("%d",&x);
+//         if(x>=10&&x<=20){
+//             cIn++;
+//         }else cOut++;
+//     }
+//     printf("%lld in\n",cIn);
+//     printf("%lld out\n",cOut);
+// }
