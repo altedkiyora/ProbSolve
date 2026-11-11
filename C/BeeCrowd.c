@@ -614,3 +614,14 @@
 //     printf("%lld in\n",cIn);
 //     printf("%lld out\n",cOut);
 // }
+
+// //1073
+// #include<stdio.h>
+// int main(){
+//     int n;
+//     scanf("%d",&n);
+//     for(int i=2;i<=n;i+=2){
+//         double p = (i*i);
+//         printf("%d^%d = %.0lf\n",i,2,p);
+//     }
+// }
