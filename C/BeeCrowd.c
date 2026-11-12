@@ -580,7 +580,26 @@
 //     printf("%d valores positivos\n",count);
 // }
 
-//1061
+// //1061
+// #include<stdio.h>
+// int main(){
+//    int d1,h1,m1,s1;
+//    int d2,h2,m2,s2;
+//    scanf("Dia %d",&d1);
+//    scanf("%d : %d : %d",&h1,&m1,&s1);
+//    scanf(" Dia %d",&d2);
+//    scanf("%d : %d : %d",&h2,&m2,&s2);
+//    int t;
+//    t = ((d2-d1)*(24*60*60))+(h2-h1)*60*60+(m2-m1)*60+(s2-s1);
+//    int w =t/(24*60*60);
+//    int x = (t%(24*60*60)/(60*60));
+//    int y = (t%(24*60*60)%(60*60))/60;
+//    int z = (t%(24*60*60)%(60*60))%60;
+//    printf("%d dia(s)\n",w);
+//    printf("%d hora(s)\n",x);
+//    printf("%d minuto(s)\n",y);
+//    printf("%d segundo(s)\n",z);
+// }
 
 
 // //1070
