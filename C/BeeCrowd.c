@@ -643,3 +643,62 @@
 //         printf("%d^%d = %.0lf\n",i,2,p);
 //     }
 // }
+
+// //1094
+// #include<stdio.h>
+// int main(){
+//     int n,sum=0,c,s,r;
+//     c=s=r=0;
+//     scanf("%d",&n);
+//     int m;char x;
+//     while(n--){
+//         scanf("%d %c",&m,&x);
+//         switch(x){
+//             case 'C':c+=m;break;
+//             case 'S':s+=m;break;
+//             case 'R':r+=m;break;
+//         }
+//         sum+=m;
+//     }
+//     printf("Total: %d cobaias\n",sum);
+//     printf("Total de coelhos: %d\n",c);
+//     printf("Total de ratos: %d\n",r);
+//     printf("Total de sapos: %d\n",s);
+//     printf("Percentual de coelhos: %.2lf %%\n",((float)c/sum)*100);
+//     printf("Percentual de ratos: %.2lf %%\n",((float)r/sum)*100);
+//     printf("Percentual de sapos: %.2lf %%\n",((float)s/sum)*100);
+// }
+
+// //1095
+// #include<stdio.h>
+// int main(){
+//     for(int i=1,j=60;j>=0;i+=3){
+//         printf("I=%d J=%d\n",i,j);j-=5; 
+//     }
+// }
+
+// //1097
+// #include<stdio.h>
+// int main(){
+//     int k=7;
+//     for(int i=1;i<=9;i+=2){
+//         for(int j=k;j>=k-2;j--){
+//             printf("I=%d J=%d\n",i,j);
+//         }
+//         k+=2;
+//     }
+// }
+
+// //1098
+// #include<stdio.h>
+// int main(){
+//     for(int i=0;i<=20;i+=2){
+//         for(int j=1;j<=3;j++){
+//             if((i%10==0)){
+//                 printf("I=%d J=%d\n",i/10,(i/10+j));
+//             }else{
+//                 printf("I=%.1f J=%.1f\n",i/10.0,i/10.0+j);
+//             }
+//         }
+//     }
+// }
