@@ -356,3 +356,75 @@
 //     }
 // }
 
+//U
+
+
+// //V
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main(){
+//     int n;
+//     cin>>n;
+//     for(int i=1;i<=n*4;i++){
+//         if(i%4==0){
+//             cout<<"PUM"<<endl;continue;
+//         }
+//         cout<<i<<" ";
+//     }
+// }
+
+// //W
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main(){
+//     int n;
+//     cin>>n;
+//     for(int i=1;i<=n;i++){
+//         for(int j=1;j<=n-i;j++){
+//             cout<<" ";
+//         }
+//         for(int k=1;k<=2*i-1;k++){
+//             cout<<"*";
+//         }
+//         cout<<endl;
+//     }
+//     for(int i=n;i>=1;i--){
+//         for(int j=1;j<=n-i;j++){
+//             cout<<" ";
+//         }
+//         for(int k=1;k<=2*i-1;k++){
+//             cout<<"*";
+//         }
+//         cout<<endl;
+//     }
+// }
+
+// //X
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main(){
+//     int t=1;
+//     cin>>t;
+//     while(t--){
+//         long long int n,r,b=0,c=0,x=0;cin>>n;
+//         do{
+//             r = n%2;if(r==1)c++;
+//             n/=2;
+//         }while(n!=0);
+//         for(long long int i=0;i<c;i++)b+=pow(2,i);
+//         cout<<b<<endl;    
+//     }
+// }
+
+// //Y
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main(){
+//     int n;
+//     cin>>n;
+//     int f=0,s=1,a=0;
+//     for(int i=0;i<n;i++){
+//         cout<<f<<" ";
+//         a=f+s;f=s;s=a;
+//     }
+// }
