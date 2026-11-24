@@ -1,11 +1,11 @@
 
-// //B-1000
+// //1000
 // #include <stdio.h>
 // int main(){
 //     printf("Hello World!\n");
 // }
 
-// //B-1001
+// //1001
 // #include<stdio.h>
 // int main(){
 //     int A,B;
@@ -15,7 +15,7 @@
 //     printf("X = %d\n",x);
 // }
 
-// //B-1002
+// //1002
 // #include<stdio.h>
 // int main(){
 //     double r;
@@ -24,7 +24,7 @@
 //     printf("A=%.4lf\n",n*r*r);
 // }
 
-// //B-1003
+// //1003
 // #include<stdio.h>
 // int main(){
 //     int a,b;
@@ -34,7 +34,7 @@
 //     printf("SOMA = %d\n",SOMA);
 //}
 
-// //B-1004
+// //1004
 // #include<stdio.h>
 // int main(){
 //     int a,b;
@@ -44,7 +44,7 @@
 //     printf("PROD = %d\n",PROD);
 // }
 
-//B-1005
+//1005
 // #include<stdio.h>
 // int main(){
 //     float a,b;
@@ -54,7 +54,7 @@
 //     printf("MEDIA = %.5f\n",MEDIA);
 // }
 
-// //B-1006
+// //1006
 // #include<stdio.h>
 // int main(){
 //     double a,b,c;
@@ -65,7 +65,7 @@
 //     printf("MEDIA = %.1lf\n",MEDIA);
 // }
 
-// //B-1007
+// //1007
 // #include<stdio.h>
 // int main(){
 //     long long int a,b,c,d;
@@ -76,7 +76,7 @@
 //     printf("DIFERENCA = %lld\n",(a*b-c*d));
 // }
 
-// //B-1008
+// //1008
 // #include<stdio.h>
 // int main(){
 //     long long int n,h;double a;
@@ -87,7 +87,7 @@
 //     printf("SALARY = U$ %.2lf\n",h*a);
 // }
 
-// //B-1009
+// //1009
 // #include<stdio.h>
 // int main(){
 //     char name[]="none";
@@ -98,7 +98,7 @@
 //     printf("TOTAL = R$ %.2lf\n",s+.15*t);
 // }
 
-// //B-1010
+// //1010
 // #include<stdio.h>
 // int main(){
 //     int c,u;float p;
@@ -109,7 +109,7 @@
 //     printf("VALOR A PAGAR: R$ %.2lf\n",a);
 // }
 
-// //B-1011
+// //1011
 // #include<stdio.h>
 // #include<math.h>
 // int main(){
@@ -118,7 +118,7 @@
 //     printf("VOLUME = %.3lf\n",(4/3.0)*3.14159*pow(r,3));
 // }
 
-// //B-1012
+// //1012
 // #include<stdio.h>
 // #include<math.h>
 // int main(){
@@ -131,7 +131,7 @@
 //     printf("RETANGULO: %.3lf\n",a*b);
 // }
 
-// //B-1013
+// //1013
 // #include<stdio.h>
 // #include<math.h>
 // int main(){
@@ -142,7 +142,7 @@
 //     printf("%d eh o maior\n",mj);
 // }
 
-// //B-1014
+// //1014
 // #include<stdio.h>
 // int main(){
 //     int x;double y;
@@ -151,7 +151,7 @@
 //     printf("%.3lf km/l\n",x/y);
 // }
 
-// //B-1015
+// //1015
 // #include<stdio.h>
 // #include<math.h>
 // int main(){
@@ -161,7 +161,7 @@
 //     printf("%.4lf\n",sqrt((pow(x2-x1,2)+pow(y2-y1,2))));
 // }
 
-// //B-1016
+// //1016
 // #include<stdio.h>
 // int main(){
 //     int y;
@@ -169,7 +169,7 @@
 //     printf("%d minutos\n",2*y);
 // }
 
-// //B-1017
+// //1017
 // #include <stdio.h>
 // int main() {
  
@@ -180,7 +180,7 @@
 //     printf("%.3lf\n",d/12.0);  
 // }
 
-// //B-1018
+// //1018
 // #include<stdio.h>
 // int main(){
 //     int n;
@@ -198,7 +198,7 @@
 //     }
 // }
 
-// //B-1019
+// //1019
 // #include<stdio.h>
 // int main(){
 //     long long int n;
@@ -210,7 +210,7 @@
 //     printf("%d:%d:%d\n",h,m,s);
 // }
 
-// // //B-1020
+// //1020
 // #include<stdio.h>
 // int main(){
 //     int d;
@@ -220,7 +220,7 @@
 //     printf("%d dia(s)\n",d%365%30);
 // }
 
-// //B-1021
+// //1021
 // #include<stdio.h>
 // #include<math.h>
 // int main(){
@@ -250,7 +250,7 @@
 //     }
 // }
 
-// //B-1035
+// //1035
 // #include <stdio.h>
 // int main() {
 //     int a,b,c,d;
@@ -262,7 +262,7 @@
 //     }else printf("Valores nao aceitos\n");   
 // }
 
-// //B-1036
+// //1036
 // #include <stdio.h>
 // #include <math.h>
 // int main() {
@@ -277,7 +277,7 @@
 //     }else{printf("Impossivel calcular\n");}
 // }
 
-// //B-1037
+// //1037
 // #include <stdio.h>
  
 // int main() {
@@ -296,7 +296,7 @@
 //     }
 // }
 
-// //B-1038
+// //1038
 // #include <stdio.h>
 // int main() {
 //     int x,y;

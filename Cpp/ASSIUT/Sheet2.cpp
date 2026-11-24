@@ -356,8 +356,20 @@
 //     }
 // }
 
-//U
-
+// //U
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main(){
+//     int n,a,b,r,sum=0,s=0;cin>>n>>a>>b;
+//     for(int i=1;i<=n;i++){
+//         int t=i;
+//         sum=0;
+//         while(t){
+//             r=t%10;sum+=r;t/=10;
+//         }
+//         if(sum>=a&&sum<=b)s+=i;   
+//     }cout<<s<<endl;
+// }
 
 // //V
 // #include<bits/stdc++.h>
@@ -427,4 +439,23 @@
 //         cout<<f<<" ";
 //         a=f+s;f=s;s=a;
 //     }
+// }
+
+// //Z
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main(){
+//     ios_base::sync_with_stdio(false);
+//     cin.tie(0);cout.tie(0);
+//     int k,s,x,y,z,c=0;
+//     cin>>k>>s;
+//     for(int i=0;i<=k;i++){
+//         x=i;
+//         for(int j=0;j<=k;j++){
+//             y=j;
+//             z=s-x-y;
+//             if(z>=0&&z<=k)c++;
+//         }
+//     }
+//     cout<<c<<endl;
 // }
